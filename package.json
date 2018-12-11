@@ -1,9 +1,10 @@
 {
   "name": "unitintegration",
   "version": "1.0.0",
-  "description": "Excercise for unit and integration testing",
+  "description": "Exercise for unit and integration testing",
   "main": "index.js",
   "scripts": {
+    "testwatch": "nodemon --exec \"jasmine\" --watch src --watch spec",
     "test": "jasmine"
   },
   "author": "Reto Blunschi <reto.blunschi@youpers.com> (http://www.youpers.com)",
